@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+       
+        .bg{
+            background-image: url(1920x1080_background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .holder{
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        section{
+            height: 100vh;
+        }
+        img{
+            width: 100%;
+        }
+
+      
+        @media only screen and (max-width: 768px) and (min-width: 366px)  {
+            .bg{
+                background-image: url(768x1024_background.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+        }
+        @media only screen and (max-width: 365px) {
+                .bg{
+                background-image: url(365x812_background.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body class="">
+    <section class="bg">
+        <div class="holder">
+            <img src="offer.png" alt="offer">
+        </div>
+    </section>
+    
+</body>
+</html>
